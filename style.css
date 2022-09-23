@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+height: 100%;
+width: 100%;
+font-family: "Baloo 2", cursive;
+font-size: 10.8pt;
+background: url("/background.png");
+color: #000000;
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-attachment: scroll;
+background-size: auto;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .footer {
+	color: black;
+	margin: 0;
+	margin-top: 2.5em;
+	font-size: 1.5em;
+	padding: 0em;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: overline;
+	opacity: 75%;
+}
+.img-thumbnail {
+    border: none;
+    background: none;
+    border: 2px solid black;
+  }
+  h3.list-group-item {
+    opacity: 90%;
+    background-color: #000000;
+    color: whitesmoke ;
+    font-weight: 900;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    margin: 0;
+    font-style: normal;
+    padding: 10px 15px 7px;
+  }
+  .list-group-item-action:focus, .list-group-item-action:hover {
+    z-index: 1;
+    color: #495057;
+    text-decoration: none;
+    background-color:whitesmoke;
+  }
+  a.list-group-item {
+    color: #000000;
+    opacity: 85%;
+  }
+  .list-group-item .icon-wrapper {
+    color: #000000;
+    display: inline-block;
+    width: 35px;
+    margin-right: 5px;
+    display: inline-flex;
+    vertical-align: middle;
+    flex-direction: row;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+  }
+  .list-group-item {
+    font-size: 1.45em;
+  }
+  .list-group-item .icon-wrapper i {
+    font-size: 1.5em;
+    color: #000000;
+  }
+  .list-group {
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.6);
+  }
+  .list-group-item:first-child {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+  }
+  @media (max-width:500px){
+    .col-12 {
+        flex: 0 0 auto;
+        width: 100%;
+      }
+      h3{
+        font-size:1.65rem;
+      }
+  }
+  @media (max-width:1000px){
+    .col-12 {
+        flex: 0 0 auto;
+        width: 100%;
+      }
+  }
